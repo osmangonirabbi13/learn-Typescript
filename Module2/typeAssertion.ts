@@ -11,7 +11,7 @@ const kgToGmConverter =(input : string | number) : string |number |undefined   =
 }
 
 const result1 = kgToGmConverter(4) as number
-const result2 = kgToGmConverter("2 kg")
+const result2 = kgToGmConverter("2 kg") as string
 
 console.log(result1)
 console.log(result2)
